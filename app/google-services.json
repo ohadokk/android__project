@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "617639980160",
+    "project_id": "graphite-wave-146720"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617639980160:android:9f04380640dbf2df",
+        "android_client_info": {
+          "package_name": "com.example.ohad.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617639980160-b2ela6emo3gr0v3cav22bqg6evae8dl9.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "617639980160-r5io6bt7tlnnt46u1jv810tt8ps9jd67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ohad.test",
+            "certificate_hash": "f2cf2203ff87cf69ee2d1c26d13ebfd14d72e5d0"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnQaDovYQbRTnnJgIOdypCIQjQgu8Yywk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

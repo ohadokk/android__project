@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/Mr.robot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_x="15dp"
+    android:layout_y="114dp"
+    android:visibility="visible"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/guiMainActivityLayout"
+        class="com.example.ohad.test.TamaguziGui"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_x="-6dp"
+        android:layout_y="-24dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="507dp"
+        android:orientation="vertical"
+        android:layout_y="60dp">
+
+        <ImageView
+            android:id="@+id/test_love"
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            app:srcCompat="@drawable/test_love" />
+
+        <EditText
+            android:id="@+id/Sick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <ImageView
+            android:id="@+id/SickP"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:inputType="textPersonName"
+            android:text="Name"
+            app:srcCompat="@drawable/bar6"
+            android:scaleType="fitXY"/>
+
+        <EditText
+            android:id="@+id/Hungry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <ImageView
+            android:id="@+id/HungryP"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:inputType="textPersonName"
+            android:text="Name"
+            app:srcCompat="@drawable/bar6"
+            android:scaleType="fitXY"/>
+
+        <EditText
+            android:id="@+id/Happy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <ImageView
+            android:id="@+id/HappyP"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:inputType="textPersonName"
+            android:text="Name"
+            app:srcCompat="@drawable/bar6"
+            android:scaleType="fitXY"/>
+
+        <EditText
+            android:id="@+id/Active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <ImageView
+            android:id="@+id/ActiveP"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:inputType="textPersonName"
+            android:text="Name"
+            app:srcCompat="@drawable/bar6"
+            android:scaleType="fitXY"/>
+
+        <!--<EditText
+            android:id="@+id/Face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />-->
+    </LinearLayout>
+</LinearLayout>

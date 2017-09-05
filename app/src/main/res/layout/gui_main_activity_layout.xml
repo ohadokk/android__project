@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/SickBar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/Bar"
+        android:layout_alignStart="@+id/Bar"
+        android:layout_alignTop="@+id/Bar"
+        android:layout_x="310dp"
+        android:layout_y="13dp"
+        android:src="@drawable/plaster" />
+
+    <ImageView
+        android:id="@+id/HungryBar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/Bar"
+        android:layout_alignStart="@+id/Bar"
+        android:layout_alignTop="@+id/Bar"
+        android:layout_x="310dp"
+        android:layout_y="13dp"
+        android:src="@drawable/pankake" />
+
+    <ImageView
+        android:id="@+id/ActiveBar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/Bar"
+        android:layout_alignStart="@+id/Bar"
+        android:layout_alignTop="@+id/Bar"
+        android:layout_x="310dp"
+        android:layout_y="13dp"
+        android:src="@drawable/sleep" />
+
+    <ImageView
+        android:id="@+id/HappyBar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/Bar"
+        android:layout_alignStart="@+id/Bar"
+        android:layout_alignTop="@+id/Bar"
+        android:layout_x="310dp"
+        android:layout_y="13dp"
+        android:src="@drawable/coffe" />
+
+    <ImageView
+        android:id="@+id/Bar"
+        android:layout_width="94dp"
+        android:layout_height="111dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_x="286dp"
+        android:layout_y="-14dp"
+        android:src="@drawable/game"
+        android:text="Click here to move view with animation" />
+</AbsoluteLayout>

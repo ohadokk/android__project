@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AppLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ohad.test.MainActivity">
+
+
+    <AbsoluteLayout
+        android:id="@+id/Mr.robot"
+        android:layout_width="391dp"
+        android:layout_height="324dp"
+        android:layout_x="-5dp"
+        android:layout_y="106dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/smily1"
+            android:layout_width="255dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_x="51dp"
+            android:layout_y="10dp"
+            app:srcCompat="@drawable/smily" />
+
+        <ImageView
+            android:id="@+id/waving_hand2"
+            android:layout_width="127dp"
+            android:layout_height="178dp"
+            android:layout_alignTop="@+id/waving_hand1"
+            android:layout_toLeftOf="@+id/smily1"
+            android:layout_toStartOf="@+id/smily1"
+            android:layout_x="243dp"
+            android:layout_y="167dp"
+            app:srcCompat="@drawable/right_hand" />
+
+        <ImageView
+            android:id="@+id/waving_hand1"
+            android:layout_width="121dp"
+            android:layout_height="178dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_x="-1dp"
+            android:layout_y="169dp"
+            app:srcCompat="@drawable/left_hand" />
+
+        <ImageView
+            android:id="@+id/star1"
+            android:layout_width="167dp"
+            android:layout_height="154dp"
+            android:layout_x="41dp"
+            android:layout_y="-28dp"
+            app:srcCompat="@drawable/hangout" />
+
+        <ImageView
+            android:id="@+id/star2"
+            android:layout_width="84dp"
+            android:layout_height="74dp"
+            android:layout_x="17dp"
+            android:layout_y="68dp"
+            app:srcCompat="@drawable/youtube1" />
+
+        <ImageView
+            android:id="@+id/star5"
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:layout_x="3dp"
+            android:layout_y="152dp"
+            app:srcCompat="@drawable/calender" />
+
+        <ImageView
+            android:id="@+id/star4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="170dp"
+            android:layout_y="6dp"
+            app:srcCompat="@drawable/game" />
+
+        <ImageView
+            android:id="@+id/star3"
+            android:layout_width="82dp"
+            android:layout_height="66dp"
+            android:layout_x="276dp"
+            android:layout_y="141dp"
+            app:srcCompat="@drawable/vidyo" />
+
+    </AbsoluteLayout>
+
+    <ImageView
+        android:id="@+id/star6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="250dp"
+        android:layout_y="153dp"
+        app:srcCompat="@drawable/ic_launcher" />
+
+
+</AbsoluteLayout>

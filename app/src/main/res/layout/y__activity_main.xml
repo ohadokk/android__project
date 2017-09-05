@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ohad.test.Y__MainActivity">
+
+
+    <Button
+        android:id="@+id/playlist4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/playlist1"
+        android:layout_alignStart="@+id/playlist1" />
+
+    <Button
+        android:id="@+id/playlist2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="Button"
+        android:layout_below="@+id/playlist_name"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/playlist1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_below="@+id/playlist2"
+        android:layout_alignLeft="@+id/playlist2"
+        android:layout_alignStart="@+id/playlist2"
+        android:layout_marginTop="18dp" />
+
+    <EditText
+        android:id="@+id/playlist_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="enter name"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="177dp"
+        android:layout_below="@+id/insert_playlist"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/insert_playlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="insert playlist"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="245dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/playlist3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_below="@+id/playlist4"
+        android:layout_alignLeft="@+id/playlist4"
+        android:layout_alignStart="@+id/playlist4" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/playlist3"
+        android:layout_alignStart="@+id/playlist3"
+        android:layout_below="@+id/playlist3"
+        android:layout_marginTop="14dp"
+        android:text="search" />
+
+
+</RelativeLayout>
